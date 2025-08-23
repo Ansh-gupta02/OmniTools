@@ -23,7 +23,7 @@ It provides tools like **Article Generation, Image Editing, Background Removal, 
 - **Database:** PostgreSQL  
 - **Media Storage & Processing:** Cloudinary  
 - **Authentication:** Clerk  
-- **Deployment:** AWS (EC2, RDS, S3, etc.)  
+- **Deployment:** AWS (Backend) + Vercel (Frontend)  
 
 ---
 
@@ -31,29 +31,38 @@ It provides tools like **Article Generation, Image Editing, Background Removal, 
 
 Omni-Tools/
 │-- client/ # React frontend
+
 │-- server/ # Express backend
+
 │-- assets/ # Images, logos, screenshots
+
 │-- README.md # Project documentation
+
 │-- package.json
+
 │-- vite.config.js
+
 
 
 
 ## 🚀 Deployment
 
-The project will be deployed on **AWS**.  
-🔗 **Live Link:** [Coming Soon](#)  
+- **Live Project (Frontend + Backend on Vercel):**  
+  👉 [https://omni-tools-dev.vercel.app/](https://omni-tools-dev.vercel.app/)
 
+- **Backend (AWS Elastic Beanstalk - experimental):**  
+  👉 [http://omni-tool-backend-env.eba-dmkaqqvh.ap-south-1.elasticbeanstalk.com/](http://omni-tool-backend-env.eba-dmkaqqvh.ap-south-1.elasticbeanstalk.com/)
 
+⚠️ **Note:** The project is fully running on **Vercel** (both frontend & backend).  
+The **AWS Elastic Beanstalk** deployment exists, but due to SSL/CCL certificate issues, it is not connected with the frontend.
+
+---
 
 ## ⚙️ Installation & Setup
 
-Clone the repository and install dependencies:
-
-
 # Clone repo
-git clone https://github.com/your-username/omni-tools.git
-cd omni-tools
+git clone https://github.com/Ansh-gupta02/OmniTools.git
+cd OmniTools
 
 # Setup client
 cd client
@@ -65,22 +74,23 @@ cd ../server
 npm install
 npm run dev
 
-🔐 Authentication
+
+
+🔐 Authentication:
+
 Implemented with Clerk for secure user login & signup.
 
 Role-based access for different features.
 
 
-
 🤝 Contribution
 Contributions are welcome!
 
-Fork the repo
 
-Create a feature branch
+📜 License
+This project is licensed under the MIT License.
 
-Commit changes
 
-Open a pull request
 
+Do you want me to also add **screenshots/preview section** in the README (UI screensho
 
