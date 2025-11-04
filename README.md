@@ -50,8 +50,9 @@ Omni-Tools/
 - **Live Project (Frontend + Backend on Vercel):**  
   👉 [https://omni-tools-dev.vercel.app/](https://omni-tools-dev.vercel.app/)
 
-- **Backend (AWS Elastic Beanstalk - experimental):**  
-  👉 [http://omni-tool-backend-env.eba-dmkaqqvh.ap-south-1.elasticbeanstalk.com/](http://omni-tool-backend-env.eba-dmkaqqvh.ap-south-1.elasticbeanstalk.com/)
+- **Backend (AWS Elastic Beanstalk - experimental):**
+ <img width="940" height="395" alt="image" src="https://github.com/user-attachments/assets/8d25b25d-e7c4-4c69-8aad-3113c86ffe79" />
+
 
 ⚠️ **Note:** The project is fully running on **Vercel** (both frontend & backend).  
 The **AWS Elastic Beanstalk** deployment exists, but due to SSL/CCL certificate issues, it is not connected with the frontend.
