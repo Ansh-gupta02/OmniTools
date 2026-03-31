@@ -93,5 +93,5 @@ This project is licensed under the MIT License.
 
 
 
-Do you want me to also add **screenshots/preview section** in the README (UI screensho
+Do you want me to also add **screenshots/preview section** in the README (UI screenshot)
 
